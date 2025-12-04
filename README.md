@@ -1,7 +1,7 @@
 # Dataset of 17th century Dutch Painter
 ## webscraped from Wikipedia and Wikidata
 
-1. Data Collection
+## 1. Data Collection
 
 The data in this dataset has been scraped from both [Wikipedia](wikipedia.org) and [Wikidata](wikidata.org).
 Wikipedia
@@ -17,7 +17,7 @@ The [Wikimedia Foundation Terms of Use](https://foundation.wikimedia.org/wiki/Po
 This dataset, including wikipedia articles and metadata about 17th century Dutch painters, is therefore published with no rights reserved.
 
 
-2. Metadata
+## 2. Metadata
 
 The main dataset can be found in the following file:
 #### cleaned_data.csv
