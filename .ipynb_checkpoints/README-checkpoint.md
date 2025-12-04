@@ -24,6 +24,11 @@ The [Wikimedia Foundation Terms of Use](https://foundation.wikimedia.org/wiki/Po
 
 This dataset, including wikipedia articles and metadata about 17th century Dutch painters, is therefore published with no rights reserved.
 
+The source code of the webscraping can be found in the webscraper.ipynb file in this repo. Pleaso note that I have included json files that can be used so you don't have to perform the https requests for the 'links' and the 'wikidata_links' variables, which take several minutes to complete. Within the Jupyter Notebook, there is code that imports these json files back into Python variables which can be used to perform the rest of the code. (These json files have been created on Decemebr 4th 2025)
+
+### 1.1 Text Cleaning
+
+The citations (like [1] and [3]) have been removed from the strings that contain the Wikipedia articles. Please note that no further preprocessing steps have been performed (lowercasing, punctuation removal).
 
 ## 2. Metadata
 
@@ -40,3 +45,5 @@ The main dataset can be found in the following file:
 | Year of Death| Deathyear of the painter (from wikidata)|
 | Place of Birth|Place of birth of painter (from wikidata)|
 | Place of Death|Place of death of painter (from wikidata)|
+
+
