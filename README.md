@@ -1,5 +1,13 @@
-# Dataset of 17th century Dutch Painter
+# Dataset of 17th century Dutch Painters
 ## webscraped from Wikipedia and Wikidata
+
+The data contains wikipedia articles from over 400 Dutch 18th century painters, and metadeta about their yeor of birth, year of death, place of birth, place of death, gender and their wikidata identifiers.
+
+Possible uses for this dataset could be finding which cities birthed renowned Dutch painters, or researsch which painters have the longest wikipedia articles. 
+
+Other kinds of analysis can be done by looking gender, birth years, or locations. It is also possible to reconcile geogrpahical data for the birth and death places and make geographical visual representations, for example.
+
+Textual analysis or NLP methods can also be performed on the Wikipedia articles in this dataset.
 
 ## 1. Data Collection
 
