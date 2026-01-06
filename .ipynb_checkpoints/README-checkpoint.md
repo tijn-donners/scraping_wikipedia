@@ -1,11 +1,9 @@
 # Dataset of 17th century Dutch Painters
 ## webscraped from Wikipedia and Wikidata
 
-The data contains wikipedia articles from over 400 Dutch 18th century painters, and metadeta about their yeor of birth, year of death, place of birth, place of death, gender and their wikidata identifiers.
+The data contains wikipedia articles from over 400 Dutch 17th century painters, and metadata about their year of birth, year of death, place of birth, place of death, gender and their wikidata identifiers.
 
-Possible uses for this dataset could be finding which cities birthed renowned Dutch painters, or researsch which painters have the longest wikipedia articles. 
-
-Other kinds of analysis can be done by looking gender, birth years, or locations. It is also possible to reconcile geogrpahical data for the birth and death places and make geographical visual representations, for example.
+Possible uses for this dataset could be finding which cities birthed renowned Dutch painters. Other kinds of analysis can be done by looking at gender, birth years, or locations. Another possibility could be reconciling geographical data for the birth and death places and making geographical visual representations.
 
 Textual analysis or NLP methods can also be performed on the Wikipedia articles in this dataset.
 
@@ -24,7 +22,7 @@ The [Wikimedia Foundation Terms of Use](https://foundation.wikimedia.org/wiki/Po
 
 This dataset, including wikipedia articles and metadata about 17th century Dutch painters, is therefore published with no rights reserved.
 
-The source code of the webscraping can be found in the webscraper.ipynb file in this repo. Pleaso note that I have included json files that can be used so you don't have to perform the https requests for the 'links' and the 'wikidata_links' variables, which take several minutes to complete. Within the Jupyter Notebook, there is code that imports these json files back into Python variables which can be used to perform the rest of the code. (These json files have been created on Decemebr 4th 2025)
+The source code of the webscraping can be found in the webscraper.ipynb file in this repo. Please note that I have included json files that can be used so you don't have to perform the https requests for the 'links' and the 'wikidata_links' variables, which take several minutes to complete. Within the Jupyter Notebook, there is code that imports these json files back into Python variables which can be used to perform the rest of the code. (These json files have been created on December 4th 2025)
 
 ### 1.1 Text Cleaning
 
@@ -39,11 +37,12 @@ The main dataset can be found in the following file:
 |-----------------|-----------------|
 | Name|Name of the painter (from wikidata) |
 | Wikidata Identifier| Qnumber of the painter's wikidata item|
-| Wikiepedia Article|Article collected from Wikipedia about the painter, citations removed|
+| Wikipedia Article|Article collected from Wikipedia about the painter, citations removed|
 | Gender |Gender of the painter (from wikidata)|
 | Year of Birth| Birthyear of the painter (from wikidata)|
 | Year of Death| Deathyear of the painter (from wikidata)|
 | Place of Birth|Place of birth of painter (from wikidata)|
 | Place of Death|Place of death of painter (from wikidata)|
+
 
 
