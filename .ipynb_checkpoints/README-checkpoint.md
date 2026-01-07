@@ -1,5 +1,5 @@
 # Dataset of 17th century Dutch Painters
-## webscraped from Wikipedia and Wikidata
+## Webscraped from Wikipedia and Wikidata
 
 The data contains wikipedia articles from over 400 Dutch 17th century painters, and metadata about their year of birth, year of death, place of birth, place of death, gender and their wikidata identifiers.
 
@@ -43,6 +43,11 @@ The main dataset can be found in the following file:
 | Year of Death| Deathyear of the painter (from wikidata)|
 | Place of Birth|Place of birth of painter (from wikidata)|
 | Place of Death|Place of death of painter (from wikidata)|
+| Birth Coordinates |Birthplace coordinates (from OpenStreetMaps)|
+| Death Coordinates|Deathplace coordinates (from OpenStreetMaps)|
+## 3. Analysis
 
+A geographical analysis of the data can be found the folium_analysis notebook.
 
-
+Preview:
+<img src="preview.png"></img>
