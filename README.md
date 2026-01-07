@@ -48,6 +48,7 @@ The main dataset can be found in the following file:
 ## 3. Analysis
 
 A geographical analysis of the data can be found the folium_analysis notebook.
+The interactive maps are also available as html files in this repo.
 
 Preview of the places of death count of painters:
 <img src="preview.png"></img>
