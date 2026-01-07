@@ -44,5 +44,6 @@ The main dataset can be found in the following file:
 | Place of Birth|Place of birth of painter (from wikidata)|
 | Place of Death|Place of death of painter (from wikidata)|
 
+## 3. Analysis
 
-
+<iframe></iframe>
